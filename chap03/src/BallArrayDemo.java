@@ -1,4 +1,7 @@
 class Ball{
+    String name;
+    public void setName(String name){this.name = name;}
+    public  String getName(){return name;}
 
 }
 
@@ -8,12 +11,13 @@ public class BallArrayDemo {
 
         for(int i = 0; i < 2; i++){
             balls[i] = new Ball();
+            balls[i].setName((i+1)+"번 공");
         }
 
         System.out.println("배열의 원소들 : ");
         for (Ball ball : balls){
             if (ball != null) {
-                System.out.println(ball);
+                System.out.println(ball.getName());
             }
             else {
                 System.out.println("null");
