@@ -13,5 +13,6 @@ public class StringMethodDemo {
 
         String trimmedString = originalString.trim();
         System.out.println("trim() 결과 : "+trimmedString);
+
     }
 }
