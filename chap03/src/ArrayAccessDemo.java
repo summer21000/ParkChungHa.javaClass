@@ -13,6 +13,7 @@ public class ArrayAccessDemo {
         System.out.println("배열의 모든 원소 : ");
         for (int i = 0; i< scores.length; i++){
             System.out.println("원소"+i+" : "+scores[i]);
+
         }
     }
 }
