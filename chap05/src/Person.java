@@ -10,7 +10,13 @@ public class Person {
     }
 
     public void setName(String newName){
-        this.name = newName;
+        if (newName.equals("BadName")){
+            System.out.println("좋지 않은 이름 선택입니다.");
+        }
+        else{
+            this.name = newName;
+        }
+
     }
 
     public static void main(String[] args) {

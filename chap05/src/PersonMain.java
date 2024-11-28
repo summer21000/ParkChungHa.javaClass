@@ -5,5 +5,8 @@ public class PersonMain {
 
         person.setName("청하");
         System.out.println("변경된 이름 : "+person.getName());
+
+        person.setName("BadName");
+        System.out.println("변경된 이름 : "+person.getName());
     }
 }
