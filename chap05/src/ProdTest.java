@@ -8,6 +8,7 @@ class Prod{
     }
     void info(){
         System.out.println(id+" : "+nm);
+        System.out.println("부모의 주소 : "+this);
     }
 }
 
@@ -20,6 +21,7 @@ class ExtProd extends Prod{
 
     void info(){
         super.info();
+        System.out.println("자식의 주소 : "+this);
         System.out.println("수량 : "+qty);
     }
 }
