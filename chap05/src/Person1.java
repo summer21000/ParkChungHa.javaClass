@@ -2,7 +2,7 @@ public class Person1 {
     private String name;
     private int age;
 
-    public Person1 setname(String name){
+    public Person1 setName(String name){
         this.name = name;
         return this;
     }
@@ -18,6 +18,12 @@ public class Person1 {
 
     public static void main(String[] args) {
         Person1 person0 = new Person1();
-        person0.setname("청하").setAge(25).Hello();
+        Person1 person1 = new Person1();
+
+        person0.setName("지선");
+        person0.setAge(26);
+        person0.Hello();
+
+        person1.setName("청하").setAge(25).Hello();
     }
 }
