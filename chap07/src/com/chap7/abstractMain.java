@@ -1,3 +1,5 @@
+package com.chap7;
+
 abstract class Shape{
     int x, y;
 
