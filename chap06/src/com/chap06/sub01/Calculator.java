@@ -3,7 +3,7 @@ import java.util.List;
 import java.math.BigDecimal;
 
 public class Calculator{
-    double sum(List<BigDecimal> numbers){
+    public double sum(List<BigDecimal> numbers){
         BigDecimal sum = BigDecimal.ZERO;
         for (BigDecimal num : numbers){
             sum = sum.add(num);
